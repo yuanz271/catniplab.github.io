@@ -1,85 +1,10 @@
 % Encoding: UTF-8
 
-@InProceedings{Zhao2018a,
-  author    = {Yuan Zhao and Il Memming Park},
-  title     = {Accessing neural states in real time: recursive variational Bayesian dual estimation},
-  booktitle = {Computational and Systems Neuroscience ({COSYNE})},
-  year      = {2018},
-}
-
-@Unpublished{Sokol2018a,
-  author        = {Piotr Sokol and Il Memming Park},
-  title         = {Information geometry of orthogonal initializations and training},
-  note          = {(under review)},
-  month         = oct,
-  year          = {2018},
-  abstract      = {Recently mean field theory has been successfully used to analyze properties
-of wide, random neural networks. It has given rise to a prescriptive theory for
-initializing neural networks, which ensures that the \$\ell\_2\$ norm of the
-backpropagated gradients is bounded, and training is orders of magnitude
-faster. Despite the strong empirical performance of this class of
-initializations, the mechanisms by which they confer an advantage in the
-optimization of deep neural networks are poorly understood. Here we show a
-novel connection between the maximum curvature of the optimization landscape
-(gradient smoothness) as measured by the Fisher information matrix and the
-maximum singular value of the input-output Jacobian. Our theory partially
-explains why neural networks that are more isometric can train much faster.
-Furthermore, we experimentally investigate the benefits of maintaining
-orthogonality throughout training, from which we conclude that manifold
-constrained optimization of weights performs better regardless of the
-smoothness of the gradients. Finally we show that critical orthogonal
-initializations do not trivially give rise to a mean field limit of
-pre-activations for each layer.},
-  archiveprefix = {arXiv},
-  day           = {9},
-  eprint        = {1810.03785},
-  journal       = {ArXiv e-prints},
-  keywords      = {deep-learning, machine-learning},
-  posted-at     = {2018-10-10 15:14:09},
-  url           = {http://arxiv.org/abs/1810.03785},
-}
-
-@InProceedings{Nassar2018a,
-  author    = {Nassar, Josue and Linderman, Scott and Zhao, Yuan and Bugallo, M\'onica and Park, Il Memming},
-  title     = {Learning structured neural dynamics from single trial population recording},
-  booktitle = {52nd Asilomar Conference on Signals, Systems and Computers},
-  note      = {(upcoming)},
-  year      = {2018},
-  owner     = {memming},
-  timestamp = {2018.07.18},
-}
-
-@Article{Kirschen2018a,
-  author   = {Kirschen, Gregory W. and Ge, Shaoyu and Park, Il Memming},
-  title    = {Probability of viral labeling of neural stem cells {\it in vivo}},
-  journal  = {Neuroscience Letters},
-  year     = {2018},
-  abstract = {In the neuroscience field over the past several decades, viral vectors have become powerful gene delivery systems to study neural populations of interest. For neural stem cell (NSC) biology, such viruses are often used to birth-date and track NSCs over developmental time in lineage tracing experiments. Yet, the probability of successful infection of a given stem cell in vivo remains unknown. This information would be helpful to inform investigators interested in titrating their viruses to selectively target sparsely-populated clusters of cells in the nervous system. Here, we describe a novel approach to calculate the probability of successful viral infection of NSCs using experimentally-derived cell cluster data from our newly-developed method to sparsely label adult NSCs, and a simple statistical derivation. Others interested in precisely defining their viral infection efficiency can use this method for a variety of basic and translational studies.},
-  doi      = {10.1016/j.neulet.2018.05.016},
-  keywords = {neural-stem-cells, probability-estimation},
-}
-
 @InProceedings{Hocker2018a,
   author    = {David Hocker and Il Memming Park},
   title     = {Myopic Control: A New Control Objective for Neural Population Dynamics},
   booktitle = {Computational and Systems Neuroscience ({COSYNE})},
   year      = {2018},
-}
-
-@Article{Esfahany2018b,
-  author        = {Esfahany, Kathleen and Siergiej, Isabel and Zhao, Yuan and Park, Il Memming},
-  title         = {Organization of neural population code in mouse visual system},
-  journal       = {eNeuro},
-  year          = {2018},
-  pages         = {0414--17},
-  month         = jul,
-  abstract      = {The mammalian visual system consists of several anatomically distinct areas, layers, and cell types. To understand the role of these subpopulations in visual information processing, we analyzed neural signals recorded from excitatory neurons from various anatomical and functional structures. For each of 186 mice, one of six genetically tagged cell-types and one of six visual areas were targeted while the mouse was passively viewing various visual stimuli. We trained linear classifiers to decode one of six visual stimulus categories with distinct spatiotemporal structures from the population neural activity. We found that neurons in both the primary visual cortex and secondary visual areas show varying degrees of stimulus-specific decodability, and neurons in superficial layers tend to be more informative about the stimulus categories. Additional decoding analyses of directional motion were consistent with these findings. We observed synergy in the population code of direction in several visual areas suggesting area-specific organization of information representation across neurons. These differences in decoding capacities shed light on the specialized organization of neural information processing across anatomically distinct subpopulations, and further establish the mouse as a model for understanding visual perception.
-},
-  archiveprefix = {bioRxiv},
-  day           = {6},
-  doi           = {10.1523/ENEURO.0414-17.2018},
-  publisher     = {Society for Neuroscience},
-  url           = {https://www.biorxiv.org/content/early/2018/03/25/220558}
 }
 
 @InProceedings{Esfahany2018a,
@@ -89,10 +14,18 @@ pre-activations for each layer.},
   year      = {2018},
 }
 
+@InProceedings{Zhao2018a,
+  author    = {Yuan Zhao and Il Memming Park},
+  title     = {Accessing neural states in real time: recursive variational Bayesian dual estimation},
+  booktitle = {Computational and Systems Neuroscience ({COSYNE})},
+  year      = {2018},
+}
+
 @Unpublished{Zhao2017c,
   author               = {Zhao, Yuan and Park, Il Memming},
   title_old                = {Recursive Variational Bayesian Dual Estimation for Nonlinear Dynamics and {Non-Gaussian} Observations},
   title                = {Variational Recursive Dual Filtering},
+  month                = jul,
   year                 = {2017},
   abstract             = {State space models provide an interpretable framework for complex time series
 by combining an intuitive dynamical system model with a probabilistic
@@ -206,7 +139,6 @@ predictions for neuroscience applications.},
   pages         = {241299+},
   publisher     = {Cold Spring Harbor Laboratory},
   timestamp     = {2017.12.31},
-  note		= {(under review)},
   url           = {https://www.biorxiv.org/content/early/2017/12/30/241299},
 }
 
@@ -220,20 +152,37 @@ predictions for neuroscience applications.},
 }
 
 @InProceedings{Hocker2017a,
-  author    = {David Hocker and Il Memming Park},
-  title     = {Multistep inference for generalized linear spiking models curbs runaway excitation},
-  booktitle = {8th International IEEE EMBS Conference On Neural Engineering},
-  year      = {2017},
-  pages     = {613--616},
-  month     = may,
-  publisher = {IEEE},
-  doi       = {10.1109/ner.2017.8008426},
-  file      = {Hocker2017a.pdf:Hocker2017a.pdf:PDF},
-  isbn      = {978-1-5090-4603-4},
-  keywords  = {autoregressive, glm, multi-step-prediction, spike-train, time-series},
-  location  = {Shanghai, China},
-  owner     = {memming},
-  timestamp = {2017.02.11},
+    author    = {David Hocker and Il Memming Park},
+    title     = {Multistep inference for generalized linear spiking models curbs runaway excitation},
+    booktitle = {8th International IEEE EMBS Conference On Neural Engineering},
+    booktitle = {8th International IEEE/EMBS Conference on Neural Engineering (NER)},
+    year      = {2017},
+    owner     = {memming},
+    pdf       = {Hocker2017a.pdf},
+    timestamp = {2017.02.11},
+    doi = {10.1109/ner.2017.8008426},
+    isbn = {978-1-5090-4603-4},
+    keywords = {autoregressive, glm, multi-step-prediction, spike-train, time-series},
+    location = {Shanghai, China},
+    month = may,
+    pages = {613--616},
+    publisher = {IEEE},
+}
+
+@Unpublished{Esfahany2017a,
+    author = {Esfahany, Kathleen and Siergiej, Isabel and Zhao, Yuan and Park, Il Memming},
+    day = {17},
+    month = nov,
+    archiveprefix = {bioRxiv},
+    journal = {bioRxiv},
+    pages = {220558+},
+    title = {Organization of Neural Population Code in Mouse Visual System},
+    year = {2017},
+    doi = {10.1101/220558},
+    url = {https://www.biorxiv.org/content/early/2017/11/16/220558},
+    publisher = {Cold Spring Harbor Laboratory},
+    abstract = {Neurons in the mammalian visual system consist of several anatomically distinct areas, layers, and cell types. To understand the role of these subpopulations in visual information processing, we analyzed neural signals recorded from excitatory neurons from various anatomical and functional structures. For each of 186 mice, one of six genetically tagged cell-types and one of six visual areas were targeted while the mouse was passively viewing various visual stimuli. We trained linear classifiers to decode one of six visual stimulus categories with distinct spatiotemporal structures from the population neural activity. We found that neurons in both the primary visual cortex and secondary visual areas show varying degrees of stimulus-specific decodability, and neurons in superficial layers tend to be more informative about the stimulus categories. Additional decoding analyses of directional motion were consistent with these findings. We observed synergy and redundancy in the population code of direction in several visual areas suggesting area-specific organization of information representation across neurons. These differences in decoding capacities shed light on the specialized organization of neural information processing across anatomically distinct subpopulations, and further establishes the mouse as a model for understanding visual perception.},
+    note = {(under review)}
 }
 
 @InProceedings{Zhao2016d,
@@ -370,22 +319,25 @@ and in real neural data.},
   year = {2014}
 }
 
-@Article{Park2014d,
-  author               = {Park, Il Memming and Meister, Miriam L. R. and Huk, Alexander C. and Pillow, Jonathan W.},
-  title                = {Encoding and decoding in parietal cortex during sensorimotor decision-making},
-  journal              = {Nature Neuroscience},
-  year                 = {2014},
-  volume               = {17},
-  number               = {10},
-  pages                = {1395--1403},
-  month                = oct,
-  issn                 = {1097-6256},
+@ARTICLE{Park2014d,
+  author = {Park, Il Memming and Meister, Miriam L. R. and Huk, Alexander C.
+	and Pillow, Jonathan W.},
+  title = {Encoding and decoding in parietal cortex during sensorimotor decision-making},
+  journal = {Nature Neuroscience},
+  year = {2014},
+  volume = {17},
+  pages = {1395--1403},
+  number = {10},
+  month = oct,
   citeulike-article-id = {13342234},
-  citeulike-linkout-0  = {http://dx.doi.org/10.1038/nn.3800},
-  doi                  = {10.1038/nn.3800},
-  file                 = {Park2014d_typofixed.pdf:Park2014d_typofixed.pdf:PDF},
-  keywords             = {computational-neuroscience, decision-making, glm, lip, monkey, neural-code, neural-decoding},
-  posted-at            = {2014-08-31 22:37:11},
+  citeulike-linkout-0 = {http://dx.doi.org/10.1038/nn.3800},
+  doi = {10.1038/nn.3800},
+  issn = {1097-6256},
+  keywords = {computational-neuroscience, decision-making, glm, lip, monkey, neural-code,
+	neural-decoding},
+  posted-at = {2014-08-31 22:37:11},
+  priority = {0},
+  pdf = {Park2014d_typofixed.pdf}
 }
 
 @INPROCEEDINGS{Park2014c,
